@@ -3,7 +3,7 @@ import classNames from "classnames";
 
 function Icon({ icon, ...props }) {
   return (
-    <span className="icon">
+    <span className="icon" {...props}>
       <i className={classNames(icon)} />
     </span>
   );

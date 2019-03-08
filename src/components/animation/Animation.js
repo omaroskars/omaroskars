@@ -6,7 +6,9 @@ export const animationTypes = {
   fadeIn: "fade-in",
   scaleUpVerticalCenter: "scale-up-ver-center",
   trackInExpand: "tracking-in-expand",
-  slideInLeft: "slide-in-left"
+  slideInLeft: "slide-in-left",
+  slideInRight: "slide-in-right",
+  aurora: "aurora"
 };
 
 const Animation = ({ type, children, ...props }) => (

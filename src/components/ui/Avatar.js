@@ -5,7 +5,7 @@ function Avatar({ src, className, ...props }) {
   return (
     <figure className={classNames("image", className)} {...props}>
       <img
-        className=""
+        className="is-rounded"
         src={src}
         alt=""
         style={{ heigth: "100%", width: "100%" }}
