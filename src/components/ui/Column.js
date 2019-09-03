@@ -1,9 +1,14 @@
 import React from "react";
 import classNames from "classnames";
 
-export function Column({ children, className, ...props }) {
+export function Column({ children, className, size, ...props }) {
   return (
-    <div className={classNames("column", className)} {...props}>
+    <div
+      className={classNames("column", className, {
+        [`is-${size}`]: size
+      })}
+      {...props}
+    >
       {children}
     </div>
   );

@@ -8,3 +8,9 @@ export const colors = {
   black: "#3e3e3e",
   gray: "#EEEEEE"
 };
+
+export const photoColors = {
+  white: "#fff",
+  black: "#000",
+  orange: "#fa6400"
+};
